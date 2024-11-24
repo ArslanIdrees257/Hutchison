@@ -1,0 +1,133 @@
+{
+  "eskimo": [],
+  "germanshepherd": [
+    "german"
+  ],
+  "greyhound": [
+    "italian"
+  ],
+  "groenendael": [],
+  "hound": [
+    "Ibizan",
+    "afghan",
+    "basset",
+    "blood",
+    "english",
+    "walker"
+  ],
+  "husky": [
+    "string",
+    "undefined"
+  ],
+  "keeshond": [],
+  "kelpie": [],
+  "komondor": [],
+  "kuvasz": [],
+  "labrador": [],
+  "leonberg": [],
+  "lhasa": [],
+  "malamute": [],
+  "malinois": [],
+  "maltese": [],
+  "mastiff": [
+    "bull",
+    "tibetan"
+  ],
+  "mexicanhairless": [],
+  "mountain": [
+    "bernese",
+    "swiss"
+  ],
+  "newfoundland": [],
+  "otterhound": [],
+  "papillon": [],
+  "pekinese": [],
+  "pembroke": [],
+  "pinscher": [
+    "miniature"
+  ],
+  "pointer": [
+    "german"
+  ],
+  "pomeranian": [],
+  "poodle": [
+    "miniature",
+    "standard",
+    "toy"
+  ],
+  "pug": [],
+  "pyrenees": [],
+  "redbone": [],
+  "retriever": [
+    "chesapeake",
+    "curly",
+    "flatcoated",
+    "golden"
+  ],
+  "ridgeback": [
+    "rhodesian"
+  ],
+  "rottweiler": [],
+  "saluki": [],
+  "samoyed": [],
+  "schipperke": [],
+  "schnauzer": [
+    "giant",
+    "miniature"
+  ],
+  "setter": [
+    "english",
+    "gordon",
+    "irish"
+  ],
+  "sheepdog": [
+    "english",
+    "shetland"
+  ],
+  "shiba": [],
+  "shihtzu": [],
+  "spaniel": [
+    "blenheim",
+    "brittany",
+    "cocker",
+    "irish",
+    "japanese",
+    "sussex",
+    "welsh"
+  ],
+  "springer": [
+    "english"
+  ],
+  "stbernard": [],
+  "terrier": [
+    "american",
+    "australian",
+    "bedlington",
+    "border",
+    "dandie",
+    "fox",
+    "irish",
+    "kerryblue",
+    "lakeland",
+    "norfolk",
+    "norwich",
+    "patterdale",
+    "scottish",
+    "sealyham",
+    "silky",
+    "tibetan",
+    "toy",
+    "westhighland",
+    "wheaten",
+    "yorkshire"
+  ],
+  "vizsla": [],
+  "weimaraner": [],
+  "whippet": [],
+  "wolfhound": [
+    "irish"
+  ],
+  "abcd": [
+    "undefined"
+  ]
+}
