@@ -51,12 +51,12 @@ namespace DogsAndOriginAPI.Controllers
 
 
         [HttpPost]
-        public IActionResult AddDog(string dog,[FromBody]List<string> origins)
+        public IActionResult AddDog(string dog,[FromBody]List<string>? origins)
         {
             var data = LoadData();
             if (data.ContainsKey(dog))
              {
-                    // Add only unique origins to the existing breed
+                    // Add only unique origins to the existing dogs
                     var existingOrigins = data[dog];
                     foreach (var origin in origins)
                     {
@@ -76,7 +76,7 @@ namespace DogsAndOriginAPI.Controllers
         }
 
         [HttpPut("{origin}")]
-        public IActionResult UpdateDog(string dog, [FromBody] List<string> origin)
+        public IActionResult UpdateDog(string dog, [FromBody] List<string>? origin)
         {
             var data = LoadData();
 
@@ -85,7 +85,7 @@ namespace DogsAndOriginAPI.Controllers
                 return NotFound($"'{dog}' not found.");
             }
 
-            data[dog] = origin; // Replace the origin list
+            data[dog] = origin == null ?new List<string>():origin; // Replace the origin list if not empty
             SaveData(data);
             return Ok(data);
         }
