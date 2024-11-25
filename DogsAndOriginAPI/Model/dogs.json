@@ -1,24 +1,39 @@
 {
+  "affenpinscher": [],
+  "african": [],
+  "airedale": [],
+  "akita": [],
+  "appenzeller": [],
+  "basenji": [],
+  "beagle": [],
+  "bluetick": [],
+  "borzoi": [],
+  "bouvier": [],
+  "boxer": [],
+  "brabancon": [],
+  "briard": [],
+  "bulldog": [ "boston", "french" ],
+  "bullterrier": [ "staffordshire" ],
+  "cairn": [],
+  "chihuahua": [],
+  "chow": [],
+  "clumber": [],
+  "collie": [ "border" ],
+  "corgi": [ "cardigan" ],
+  "dachshund": [],
+  "dane": [ "great" ],
+  "deerhound": [ "scottish" ],
+  "dhole": [],
+  "dingo": [],
+  "doberman": [],
+  "elkhound": [ "norwegian" ],
+  "entlebucher": [],
   "eskimo": [],
-  "germanshepherd": [
-    "german"
-  ],
-  "greyhound": [
-    "italian"
-  ],
+  "germanshepherd": [],
+  "greyhound": [ "italian" ],
   "groenendael": [],
-  "hound": [
-    "Ibizan",
-    "afghan",
-    "basset",
-    "blood",
-    "english",
-    "walker"
-  ],
-  "husky": [
-    "string",
-    "undefined"
-  ],
+  "hound": [ "Ibizan", "afghan", "basset", "blood", "english", "walker" ],
+  "husky": [],
   "keeshond": [],
   "kelpie": [],
   "komondor": [],
@@ -29,75 +44,34 @@
   "malamute": [],
   "malinois": [],
   "maltese": [],
-  "mastiff": [
-    "bull",
-    "tibetan"
-  ],
+  "mastiff": [ "bull", "tibetan" ],
   "mexicanhairless": [],
-  "mountain": [
-    "bernese",
-    "swiss"
-  ],
+  "mountain": [ "bernese", "swiss" ],
   "newfoundland": [],
   "otterhound": [],
   "papillon": [],
   "pekinese": [],
   "pembroke": [],
-  "pinscher": [
-    "miniature"
-  ],
-  "pointer": [
-    "german"
-  ],
+  "pinscher": [ "miniature" ],
+  "pointer": [ "german" ],
   "pomeranian": [],
-  "poodle": [
-    "miniature",
-    "standard",
-    "toy"
-  ],
+  "poodle": [ "miniature", "standard", "toy" ],
   "pug": [],
   "pyrenees": [],
   "redbone": [],
-  "retriever": [
-    "chesapeake",
-    "curly",
-    "flatcoated",
-    "golden"
-  ],
-  "ridgeback": [
-    "rhodesian"
-  ],
+  "retriever": [ "chesapeake", "curly", "flatcoated", "golden" ],
+  "ridgeback": [ "rhodesian" ],
   "rottweiler": [],
   "saluki": [],
   "samoyed": [],
   "schipperke": [],
-  "schnauzer": [
-    "giant",
-    "miniature"
-  ],
-  "setter": [
-    "english",
-    "gordon",
-    "irish"
-  ],
-  "sheepdog": [
-    "english",
-    "shetland"
-  ],
+  "schnauzer": [ "giant", "miniature" ],
+  "setter": [ "english", "gordon", "irish" ],
+  "sheepdog": [ "english", "shetland" ],
   "shiba": [],
   "shihtzu": [],
-  "spaniel": [
-    "blenheim",
-    "brittany",
-    "cocker",
-    "irish",
-    "japanese",
-    "sussex",
-    "welsh"
-  ],
-  "springer": [
-    "english"
-  ],
+  "spaniel": [ "blenheim", "brittany", "cocker", "irish", "japanese", "sussex", "welsh" ],
+  "springer": [ "english" ],
   "stbernard": [],
   "terrier": [
     "american",
@@ -124,15 +98,5 @@
   "vizsla": [],
   "weimaraner": [],
   "whippet": [],
-  "wolfhound": [
-    "irish",
-    " welsh"
-  ],
-  "abcd": [
-    "efgh"
-  ],
-  "efgh": [
-    "abcd",
-    " ghaa"
-  ]
+  "wolfhound": [ "irish" ]
 }

@@ -17,11 +17,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="DataModel\" />
     <None Remove="Model\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DataModel\" />
     <Folder Include="Model\" />
   </ItemGroup>
 </Project>
