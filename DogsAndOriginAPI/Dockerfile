@@ -7,7 +7,7 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:8.0-preview AS build
 WORKDIR /src
-COPY ["DogsAndOriginAPI/DogsAndOriginAPI.csproj", "DogsAndOriginAPI/"]
+COPY ["DogsAndOriginAPI.csproj", "DogsAndOriginAPI/"]
 RUN dotnet restore "DogsAndOriginAPI/DogsAndOriginAPI.csproj"
 COPY . .
 WORKDIR "/src/DogsAndOriginAPI"
