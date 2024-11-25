@@ -1,22 +1,24 @@
-#See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
-
-FROM mcr.microsoft.com/dotnet/aspnet:8.0-preview AS base
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
+
+# Copy the project files
+COPY . ./
+
+# Restore dependencies
+RUN dotnet restore
+
+# Build the application in Release mode
+RUN dotnet publish -c Release -o out
+
+# Stage 2: Create the runtime image
+FROM mcr.microsoft.com/dotnet/aspnet:8.0
+WORKDIR /app
+
+# Copy the published files from the build stage
+COPY --from=build /app/out .
+
+# Expose the port your application listens on
 EXPOSE 80
-EXPOSE 443
 
-FROM mcr.microsoft.com/dotnet/sdk:8.0-preview AS build
-WORKDIR /src
-COPY ["/DogsAndOriginAPI.csproj", "DogsAndOriginAPI/"]
-RUN dotnet restore "DogsAndOriginAPI/DogsAndOriginAPI.csproj"
-COPY . .
-WORKDIR "/src/DogsAndOriginAPI"
-RUN dotnet build "DogsAndOriginAPI.csproj" -c Release -o /app/build
-
-FROM build AS publish
-RUN dotnet publish "DogsAndOriginAPI.csproj" -c Release -o /app/publish /p:UseAppHost=false
-
-FROM base AS final
-WORKDIR /app
-COPY --from=publish /app/publish .
+# Specify the entry point for the application
 ENTRYPOINT ["dotnet", "DogsAndOriginAPI.dll"]
