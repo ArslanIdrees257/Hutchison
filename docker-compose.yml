@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  dogsandoriginapi:
+    image: ${DOCKER_REGISTRY-}dogsandoriginapi
+    build:
+      context: .
+      dockerfile: DogsAndOriginAPI/Dockerfile

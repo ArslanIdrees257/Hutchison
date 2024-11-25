@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1706.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogsAndOriginAPI", "DogsAndOriginAPI\DogsAndOriginAPI.csproj", "{9D1FB24A-7EC5-4A1D-B684-3F9EA8307567}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8424F08A-4D45-43E9-939C-252D2D501411}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9D1FB24A-7EC5-4A1D-B684-3F9EA8307567}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D1FB24A-7EC5-4A1D-B684-3F9EA8307567}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D1FB24A-7EC5-4A1D-B684-3F9EA8307567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8424F08A-4D45-43E9-939C-252D2D501411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8424F08A-4D45-43E9-939C-252D2D501411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8424F08A-4D45-43E9-939C-252D2D501411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8424F08A-4D45-43E9-939C-252D2D501411}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
